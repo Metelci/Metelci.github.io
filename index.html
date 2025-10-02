@@ -1,0 +1,240 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <meta name="description" content="Metelci builds thoughtful digital tools that help learners stay organized, motivated, and exam-ready." />
+  <title>Metelci | Product-Focused Developer</title>
+  <link rel="stylesheet" href="styles.css" />
+</head>
+<body id="top">
+  <header class="site-header">
+    <nav class="nav">
+      <a class="nav__brand" href="#top">Metelci</a>
+      <button class="nav__toggle" aria-expanded="false" aria-controls="primary-navigation" aria-label="Toggle navigation">
+        <span></span>
+        <span></span>
+        <span></span>
+      </button>
+      <div class="nav__links" id="primary-navigation">
+        <a href="#about">About</a>
+        <a href="#projects">Projects</a>
+        <a href="#skills">Skills</a>
+        <a href="#impact">Impact</a>
+        <a href="#contact">Contact</a>
+      </div>
+    </nav>
+  </header>
+
+  <main>
+    <section class="hero" id="hero">
+      <div class="hero__content">
+        <p class="eyebrow">Product-focused developer</p>
+        <h1>Designing study journeys that keep people learning.</h1>
+        <p class="hero__lead">I build cross-platform experiences that blend thoughtful UX, measurable progress, and rock-solid security for students and lifelong learners.</p>
+        <div class="hero__actions">
+          <a class="button button--primary" href="#projects">Explore projects</a>
+          <a class="button" href="#contact">Let’s collaborate</a>
+        </div>
+        <dl class="hero__stats">
+          <div>
+            <dt>Platforms shipped</dt>
+            <dd>Android · Web · Desktop</dd>
+          </div>
+          <div>
+            <dt>Focus areas</dt>
+            <dd>Productivity · EdTech · Gamification</dd>
+          </div>
+          <div>
+            <dt>Currently crafting</dt>
+            <dd>Social study companion &amp; exam tracker</dd>
+          </div>
+        </dl>
+      </div>
+      <div class="hero__panel">
+        <div class="hero__card">
+          <p class="hero__card-title">Latest milestone</p>
+          <p class="hero__card-body">Road to YDS v2.8 launched with biometric security, offline-first sync, and a fully guided 30-week curriculum.</p>
+          <a class="hero__card-link" href="https://github.com/Metelci/YDS_Tracker" target="_blank" rel="noreferrer">Read the release →</a>
+        </div>
+        <div class="hero__card hero__card--accent">
+          <p class="hero__card-title">Available for</p>
+          <p class="hero__card-body">Product engineering roles where learning science and delightful UX collide.</p>
+          <a class="hero__card-link" href="mailto:Metelci@users.noreply.github.com">Start a conversation →</a>
+        </div>
+      </div>
+    </section>
+
+    <section class="panel" id="about">
+      <div class="panel__intro">
+        <p class="eyebrow">About</p>
+        <h2>Turning ambitious study goals into daily wins.</h2>
+      </div>
+      <div class="panel__body">
+        <p>I’m Metelci — a developer who enjoys pairing pragmatic engineering with learner-centred design. My recent work spans an Android app that orchestrates 30 weeks of English exam preparation and a cross-platform companion that keeps study groups aligned and motivated.</p>
+        <p>Data privacy, accessibility, and purposeful gamification guide my decisions. Whether I’m building in Kotlin, React, or Blazor, I focus on outcomes: helping people show up, stay accountable, and celebrate their progress.</p>
+        <ul class="panel__list">
+          <li>🧭 <strong>Product mindset:</strong> Start with desired impact, then iterate with feedback loops.</li>
+          <li>🔐 <strong>Security-first:</strong> Encryption, biometric auth, and safe defaults are non-negotiable.</li>
+          <li>🤝 <strong>Community driven:</strong> Crafting experiences that make learning collaborative, not lonely.</li>
+        </ul>
+      </div>
+    </section>
+
+    <section class="panel panel--alt" id="projects">
+      <div class="panel__intro">
+        <p class="eyebrow">Featured work</p>
+        <h2>Building tools that make studying consistent and rewarding.</h2>
+      </div>
+      <div class="projects">
+        <article class="project">
+          <div class="project__meta">
+            <h3>Road to YDS</h3>
+            <p class="project__subtitle">Android app for 30-week YDS/YÖKDİL exam preparation</p>
+          </div>
+          <p class="project__summary">A Kotlin + Jetpack Compose experience that guides learners from A2 to C level with structured plans, streaks, achievements, and secure offline storage.</p>
+          <ul class="project__highlights">
+            <li>Material 3 design system with accessibility and dark mode baked in.</li>
+            <li>Biometric authentication, AES-256 encryption, and certificate pinning for peace of mind.</li>
+            <li>Analytics-driven nudges turn progress data into personalised study momentum.</li>
+          </ul>
+          <div class="project__footer">
+            <div class="project__tags">
+              <span>Kotlin</span>
+              <span>Jetpack Compose</span>
+              <span>Room</span>
+              <span>Hilt</span>
+            </div>
+            <a class="project__link" href="https://github.com/Metelci/YDS_Tracker" target="_blank" rel="noreferrer">View repository</a>
+          </div>
+        </article>
+
+        <article class="project">
+          <div class="project__meta">
+            <h3>StudyBloom Buddy</h3>
+            <p class="project__subtitle">Social study companion for web and Android</p>
+          </div>
+          <p class="project__summary">A React + Supabase platform that blends smart planning, real-time sync, and community accountability to keep study groups aligned.</p>
+          <ul class="project__highlights">
+            <li>Unified task tracking across daily, weekly, and monthly objectives.</li>
+            <li>Leaderboards, achievements, and streaks designed to motivate without burnout.</li>
+            <li>Capacitor-powered Android distribution with offline-first support.</li>
+          </ul>
+          <div class="project__footer">
+            <div class="project__tags">
+              <span>React</span>
+              <span>TypeScript</span>
+              <span>Tailwind</span>
+              <span>Supabase</span>
+            </div>
+            <a class="project__link" href="https://github.com/Metelci/studybloom-buddy" target="_blank" rel="noreferrer">View repository</a>
+          </div>
+        </article>
+
+        <article class="project">
+          <div class="project__meta">
+            <h3>Portfolio Experiments</h3>
+            <p class="project__subtitle">Rapid prototypes &amp; design system explorations</p>
+          </div>
+          <p class="project__summary">A sandbox for trying new UI patterns, refining storytelling, and testing hosting pipelines with Blazor, GitHub Pages, and Azure Static Web Apps.</p>
+          <ul class="project__highlights">
+            <li>Blazor-based component system for expressive case studies.</li>
+            <li>Automated CI/CD pipelines through GitHub Actions &amp; SWA CLI.</li>
+            <li>User-first copywriting experiments to explain project impact quickly.</li>
+          </ul>
+          <div class="project__footer">
+            <div class="project__tags">
+              <span>Blazor</span>
+              <span>Azure SWA</span>
+              <span>CI/CD</span>
+            </div>
+            <a class="project__link" href="https://github.com/Metelci/portfolio" target="_blank" rel="noreferrer">View repository</a>
+          </div>
+        </article>
+      </div>
+    </section>
+
+    <section class="panel" id="skills">
+      <div class="panel__intro">
+        <p class="eyebrow">Toolbox</p>
+        <h2>The stack I reach for to deliver reliable learning experiences.</h2>
+      </div>
+      <div class="skills">
+        <div class="skills__group">
+          <h3>Frontend &amp; UX</h3>
+          <ul>
+            <li>React · TypeScript · Vite</li>
+            <li>Tailwind CSS · shadcn/ui</li>
+            <li>Blazor WebAssembly</li>
+          </ul>
+        </div>
+        <div class="skills__group">
+          <h3>Mobile &amp; Desktop</h3>
+          <ul>
+            <li>Kotlin · Jetpack Compose</li>
+            <li>Capacitor · Android Studio</li>
+            <li>WorkManager · DataStore</li>
+          </ul>
+        </div>
+        <div class="skills__group">
+          <h3>Platform &amp; Data</h3>
+          <ul>
+            <li>Supabase · PostgreSQL</li>
+            <li>Azure Static Web Apps</li>
+            <li>GitHub Actions · CI/CD</li>
+          </ul>
+        </div>
+        <div class="skills__group">
+          <h3>Ways of working</h3>
+          <ul>
+            <li>Outcome-driven roadmaps</li>
+            <li>Design critiques &amp; user research</li>
+            <li>Security &amp; accessibility reviews</li>
+          </ul>
+        </div>
+      </div>
+    </section>
+
+    <section class="panel panel--alt" id="impact">
+      <div class="panel__intro">
+        <p class="eyebrow">Impact</p>
+        <h2>From idea to measurable progress.</h2>
+      </div>
+      <div class="impact">
+        <article class="impact__item">
+          <h3>30-week curriculum shipped</h3>
+          <p>Road to YDS delivers a complete study journey with automated reminders, adaptive scheduling, and insights that help learners stay exam-ready.</p>
+        </article>
+        <article class="impact__item">
+          <h3>Secure by design</h3>
+          <p>Biometric authentication, encrypted storage, and privacy controls keep sensitive learner data protected without creating friction.</p>
+        </article>
+        <article class="impact__item">
+          <h3>Community keeps momentum</h3>
+          <p>StudyBloom Buddy transforms solo study into a shared mission with leaderboards, friend feeds, and respectful accountability.</p>
+        </article>
+      </div>
+    </section>
+
+    <section class="panel" id="contact">
+      <div class="panel__intro">
+        <p class="eyebrow">Let’s talk</p>
+        <h2>Have a project that helps people learn better?</h2>
+      </div>
+      <div class="contact">
+        <p>I’m always up for collaborating on products that make studying more achievable, inclusive, and fun. Drop a message and I’ll reply within two business days.</p>
+        <div class="contact__actions">
+          <a class="button button--primary" href="mailto:Metelci@users.noreply.github.com">Email me</a>
+          <a class="button" href="https://github.com/Metelci" target="_blank" rel="noreferrer">GitHub profile</a>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <footer class="site-footer">
+    <p>© <span id="year"></span> Metelci. Crafted with curiosity and care.</p>
+  </footer>
+
+  <script src="scripts.js" type="module"></script>
+</body>
+</html>
